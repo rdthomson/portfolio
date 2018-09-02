@@ -1,9 +1,34 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<a href='/'><img src="assets/Website_Logo.png" alt="Website Logo"></a>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
 
-<div class="post">
-  {{ content }}
-</div>
+        <h1>{{ page.title }}</h1>
+        <p class="meta">{{ page.date | date_to_string }}</p>
+
+        <div class="post">
+          {{ content }}
+        </div>
+
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:ryan@ryanthomsonweb.co.uk">email</a></li>
+	        		<li><a href="https://github.com/rdthomson">github</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
