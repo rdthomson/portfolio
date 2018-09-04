@@ -3,26 +3,3 @@ layout: default
 title: Contact
 ---
 	<h1>{{ page.title }}</h1>
-
-	<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSepVRwa4W5fQ1nMzEW9VG1ghWyyKiyJkT613TkLsrrstfepYA//formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  First name:<br>
-  <input type="text" name="entry.1104258452" id="entry.1104258452"><br>
-  Last name:<br>
-  <input type="text" name="entry.325459368" id="entry.325459368">
-	Email:<br>
-  <input type="text" name="entry.873071477" id="entry.873071477">
-	Message:<br>
-  <input type="text" name="entry.1997493896" id="entry.1997493896">
-  <input type="submit" value="Submit">
-</form>
-
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-</script>
