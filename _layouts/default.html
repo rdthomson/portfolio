@@ -2,15 +2,7 @@
 	<html>
 		{% include header.html %}
 		<body>
-			<a href='/'><img src="{{site.baseurl}}/assets/Website_Logo.png" alt="Website Logo"></a>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">About</a></li>
-	        		<li><a href="/skills">Skills</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-							<li><a href="/contact">Contact</a></li>
-	    		</ul>
-			</nav>
+			{% include navigation.html %}
 			<div class="container">
 
 			{{ content }}
