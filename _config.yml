@@ -8,6 +8,7 @@ url: "https://ryanthomsonweb.github.io" # the base hostname and protocol for you
 
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 paginate: 5
 
