@@ -1,10 +1,10 @@
-name: Hank Quinlan, Horrible Cop
+name: Ryan Thomson | Web Design and Development
 
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
 
-url: "https://ryanthomsonweb.github.io" # the base hostname and protocol for your site
+url: "https://ryanthomsonweb.co.uk" # the base hostname and protocol for your site
 
 plugins:
   - jekyll-sitemap
