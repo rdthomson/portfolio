@@ -48,3 +48,15 @@ ul.posts li {
     margin-right: auto;
     height: 150px;
 }
+
+#wrapper{
+    overflow: hidden;
+}
+
+#right{
+    float: left;
+}
+
+#left{
+    float: left;
+}
