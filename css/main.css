@@ -74,8 +74,10 @@ ul.posts li {
 
 #right{
     float: left;
+    width: 50%;
 }
 
 #left{
     float: left;
+    width: 50%;
 }
